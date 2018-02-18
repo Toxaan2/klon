@@ -2,6 +2,8 @@
 
 using namesoace std;
 
+#учебный комментарий
+
 int main()
 (
    int a,b;
