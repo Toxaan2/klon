@@ -9,3 +9,4 @@ int main()
    cin >> a >> b;
    cout <<"A + B = " << a + b << '\n';
 )
+print(A)
