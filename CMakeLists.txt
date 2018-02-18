@@ -10,3 +10,4 @@ int main()
    cout <<"A + B = " << a + b << '\n';
 )
 print(A)
+print(A-B)
