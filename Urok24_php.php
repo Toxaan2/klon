@@ -12,6 +12,7 @@
 		$db_name = 'test'; //имя базы данных
 
 	//Соединяемся с базой данных используя наши доступы:
+	        $link = mysqli_connect($host, $user, $password, $db_name);
 		mysqli_connect($host, $user, $password, $db_name) or die(mysqli_error($link));
 
 	//Устанавливаем кодировку (не обязательно, но поможет избежать проблем):
